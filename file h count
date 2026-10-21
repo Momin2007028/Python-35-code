@@ -1,0 +1,10 @@
+f = open("story.txt", "w")
+f.write("Python is easy to learn")
+f.close()
+
+f = open("story.txt", "r")
+text = f.read()
+f.close()
+
+words = text.split()
+print("Word count:", len(words))
