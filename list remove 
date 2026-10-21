@@ -1,0 +1,4 @@
+fruits = ["Apple", "Banana", "Mango"]
+fruits.remove("Banana")
+fruits.pop()
+print(fruits)
