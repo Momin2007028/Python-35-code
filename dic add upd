@@ -1,0 +1,6 @@
+student = {"name": "Aisha", "marks": 78}
+
+student["course"] = "BSc IT"
+student["marks"] = 88
+
+print(student)
