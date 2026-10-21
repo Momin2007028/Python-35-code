@@ -1,0 +1,7 @@
+student = {"name": "Sara", "marks": 91}
+key = input("Enter key: ")
+
+if key in student:
+    print(student[key])
+else:
+    print("Key not found")
