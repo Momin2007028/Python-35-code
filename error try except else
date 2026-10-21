@@ -1,0 +1,11 @@
+try:
+    n = int(input("Enter a number: "))
+
+except ValueError:
+    print("Invalid number")
+
+else:
+    print("Number:", n)
+
+finally:
+    print("Program finished")
