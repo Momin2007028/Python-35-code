@@ -1,0 +1,5 @@
+numbers = [8, 2, 5, 1, 9]
+numbers.sort()
+print("Ascending:", numbers)
+numbers.reverse()
+print("Reversed:", numbers)
