@@ -1,0 +1,4 @@
+prices = {"Pen": 10, "Book": 50, "Bag": 400}
+
+for key, value in prices.items():
+    print(key, value)
