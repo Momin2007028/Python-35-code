@@ -1,0 +1,10 @@
+f = open("data.txt", "w")
+f.write("First line\nSecond line\nThird line")
+f.close()
+
+f = open("data.txt", "r")
+
+for line in f:
+    print(line.strip())
+
+f.close()
